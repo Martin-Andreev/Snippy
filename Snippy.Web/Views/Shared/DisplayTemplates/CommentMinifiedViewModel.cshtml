@@ -1,0 +1,17 @@
+﻿@using Microsoft.AspNet.Identity
+@model Snippy.Web.Models.ViewModels.CommentMinifiedViewModel
+
+<div class="panel panel-default">
+    <div class="panel-heading">
+        @if (@Model.CanDelete)
+        {
+            <span class="pull-right">
+                @Html.ActionLink("X", "Delete", "Comment", routeValues: new { id = Model.Id }, htmlAttributes: new { @title = "Delete photo?" })
+            </span>
+        }
+        <p>@Model.Content</p>
+        <span class="glyphicon glyphicon-user"></span>
+        <strong>@Model.AuthorName</strong>
+        <span>on @Model.CreatedOn</span>
+    </div>
+</div>

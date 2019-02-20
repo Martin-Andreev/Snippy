@@ -1,0 +1,44 @@
+C:\Users\Andreev\Desktop\Snippy\Snippy.Models\bin\Debug\Snippy.Models.dll.config
+C:\Users\Andreev\Desktop\Snippy\Snippy.Models\bin\Debug\Snippy.Models.dll
+C:\Users\Andreev\Desktop\Snippy\Snippy.Models\bin\Debug\Snippy.Models.pdb
+C:\Users\Andreev\Desktop\Snippy\Snippy.Models\bin\Debug\EntityFramework.dll
+C:\Users\Andreev\Desktop\Snippy\Snippy.Models\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Andreev\Desktop\Snippy\Snippy.Models\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Andreev\Desktop\Snippy\Snippy.Models\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Andreev\Desktop\Snippy\Snippy.Models\bin\Debug\EntityFramework.xml
+C:\Users\Andreev\Desktop\Snippy\Snippy.Models\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Andreev\Desktop\Snippy\Snippy.Models\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Andreev\Desktop\Snippy\Snippy.Models\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Andreev\Desktop\Snippy\Snippy.Models\obj\Debug\Snippy.Models.csprojResolveAssemblyReference.cache
+C:\Users\Andreev\Desktop\Snippy\Snippy.Models\obj\Debug\Snippy.Models.dll
+C:\Users\Andreev\Desktop\Snippy\Snippy.Models\obj\Debug\Snippy.Models.pdb
+D:\SoftUni\Level #3\ASP-DOT-NET MVC\Exam\Snippy\Snippy.Models\bin\Debug\Snippy.Models.dll.config
+D:\SoftUni\Level #3\ASP-DOT-NET MVC\Exam\Snippy\Snippy.Models\bin\Debug\Snippy.Models.dll
+D:\SoftUni\Level #3\ASP-DOT-NET MVC\Exam\Snippy\Snippy.Models\bin\Debug\Snippy.Models.pdb
+D:\SoftUni\Level #3\ASP-DOT-NET MVC\Exam\Snippy\Snippy.Models\bin\Debug\EntityFramework.dll
+D:\SoftUni\Level #3\ASP-DOT-NET MVC\Exam\Snippy\Snippy.Models\bin\Debug\EntityFramework.SqlServer.dll
+D:\SoftUni\Level #3\ASP-DOT-NET MVC\Exam\Snippy\Snippy.Models\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+D:\SoftUni\Level #3\ASP-DOT-NET MVC\Exam\Snippy\Snippy.Models\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\SoftUni\Level #3\ASP-DOT-NET MVC\Exam\Snippy\Snippy.Models\bin\Debug\EntityFramework.xml
+D:\SoftUni\Level #3\ASP-DOT-NET MVC\Exam\Snippy\Snippy.Models\bin\Debug\EntityFramework.SqlServer.xml
+D:\SoftUni\Level #3\ASP-DOT-NET MVC\Exam\Snippy\Snippy.Models\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+D:\SoftUni\Level #3\ASP-DOT-NET MVC\Exam\Snippy\Snippy.Models\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\SoftUni\Level #3\ASP-DOT-NET MVC\Exam\Snippy\Snippy.Models\obj\Debug\Snippy.Models.csprojResolveAssemblyReference.cache
+D:\SoftUni\Level #3\ASP-DOT-NET MVC\Exam\Snippy\Snippy.Models\obj\Debug\Snippy.Models.dll
+D:\SoftUni\Level #3\ASP-DOT-NET MVC\Exam\Snippy\Snippy.Models\obj\Debug\Snippy.Models.pdb
+E:\Programming\SoftUni\Level #3\ASP-DOT-NET MVC\Exam\Snippy\Snippy.Models\bin\Debug\Snippy.Models.dll.config
+E:\Programming\SoftUni\Level #3\ASP-DOT-NET MVC\Exam\Snippy\Snippy.Models\bin\Debug\Snippy.Models.dll
+E:\Programming\SoftUni\Level #3\ASP-DOT-NET MVC\Exam\Snippy\Snippy.Models\bin\Debug\Snippy.Models.pdb
+E:\Programming\SoftUni\Level #3\ASP-DOT-NET MVC\Exam\Snippy\Snippy.Models\bin\Debug\EntityFramework.dll
+E:\Programming\SoftUni\Level #3\ASP-DOT-NET MVC\Exam\Snippy\Snippy.Models\bin\Debug\EntityFramework.SqlServer.dll
+E:\Programming\SoftUni\Level #3\ASP-DOT-NET MVC\Exam\Snippy\Snippy.Models\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+E:\Programming\SoftUni\Level #3\ASP-DOT-NET MVC\Exam\Snippy\Snippy.Models\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\Programming\SoftUni\Level #3\ASP-DOT-NET MVC\Exam\Snippy\Snippy.Models\bin\Debug\EntityFramework.xml
+E:\Programming\SoftUni\Level #3\ASP-DOT-NET MVC\Exam\Snippy\Snippy.Models\bin\Debug\EntityFramework.SqlServer.xml
+E:\Programming\SoftUni\Level #3\ASP-DOT-NET MVC\Exam\Snippy\Snippy.Models\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+E:\Programming\SoftUni\Level #3\ASP-DOT-NET MVC\Exam\Snippy\Snippy.Models\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\Programming\SoftUni\Level #3\ASP-DOT-NET MVC\Exam\Snippy\Snippy.Models\obj\Debug\Snippy.Models.csprojAssemblyReference.cache
+E:\Programming\SoftUni\Level #3\ASP-DOT-NET MVC\Exam\Snippy\Snippy.Models\obj\Debug\Snippy.Models.csproj.CoreCompileInputs.cache
+E:\Programming\SoftUni\Level #3\ASP-DOT-NET MVC\Exam\Snippy\Snippy.Models\obj\Debug\Snippy.Models.csproj.CopyComplete
+E:\Programming\SoftUni\Level #3\ASP-DOT-NET MVC\Exam\Snippy\Snippy.Models\obj\Debug\Snippy.Models.dll
+E:\Programming\SoftUni\Level #3\ASP-DOT-NET MVC\Exam\Snippy\Snippy.Models\obj\Debug\Snippy.Models.pdb

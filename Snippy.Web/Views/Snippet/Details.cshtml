@@ -1,0 +1,75 @@
+﻿@model Snippy.Web.Models.ViewModels.SnippetDetailedViewModel
+
+<div class="main-container">
+    <div class="container">
+        @Html.ActionLink(@Model.LanguageName, "AllSnippets", "Language", routeValues: new {id = @Model.Id, area = ""}, htmlAttributes: new {@class = "btn btn-success btn"})
+        <span class="main-title">@Model.Title</span>
+    </div>
+    <div class="top-space col-md-12">
+        <span class="glyphicon glyphicon-user"></span>
+        <strong>@Model.AuthorName</strong>
+        <span>on @Model.CreatedOn</span>
+        <div>
+            <span>Labels:</span>
+            @Html.DisplayFor(m => m.Labels)
+        </div>
+    </div>
+    <div>
+        <p>@Model.Description</p>
+        <div class="panel-default">
+            <pre>@Model.Code</pre>
+        </div>
+    </div>
+    <div>
+        <h3>Comments:</h3>
+        @if (User.Identity.IsAuthenticated)
+        {
+            using (Ajax.BeginForm("Add", "Comment", new {snippetId = @Model.Id}, new AjaxOptions()
+            {
+                HttpMethod = "POST",
+                InsertionMode = InsertionMode.InsertBefore,
+                UpdateTargetId = "comments",
+                OnSuccess = "onAddCommentSuccess",
+                OnFailure = "onAddCommentFailure"
+            }, new {@class = "form-group"}))
+            {
+                @Html.AntiForgeryToken()
+                <textarea rows="3" cols="300" id="comment-input" name="Content" width="700px" class=""></textarea>
+                <br/>
+                <input type="submit" name="name" value="Add comment" class="btn btn-primary"/>
+                <div id="add-comment-messages"></div>
+            }
+        }
+
+        @if (Model.Comments.Any())
+        {
+            <div id="comments">
+                @Html.DisplayFor(m => m.Comments)
+            </div>
+        }
+        else
+        {
+            <div class="no-comments">
+                <p>There are no comments right now.</p>
+            </div>
+        }
+    </div>
+</div>
+
+@section scripts{
+    <script src="~/Scripts/jquery.unobtrusive-ajax.min.js"></script>
+
+    <script>
+        function onAddCommentSuccess() {
+            var commentsWrapper = document.querySelector('#comments #nocomments');
+            if (commentsWrapper) {
+                commentsWrapper.removeChild(document.getElementById('no-comments'));
+            }
+            var addCommentMessageWrapper = document.getElementById("add-comment-messages");
+            addCommentMessageWrapper.innerHTML = "You successfully added comment";
+            setTimeout(function () {
+                addCommentMessageWrapper.innerHTML = '';
+            }, 1500);
+        }
+    </script>
+}

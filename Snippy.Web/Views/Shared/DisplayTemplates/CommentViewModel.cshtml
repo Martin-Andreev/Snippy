@@ -1,0 +1,14 @@
+﻿@model Snippy.Web.Models.ViewModels.CommentViewModel
+
+<div class="panel panel-default">
+    <div class="panel-heading">
+        <p>@Model.Content</p>
+        <span class="glyphicon glyphicon-user"></span>
+        <strong>@Model.AuthorName</strong>
+        <span>on @Model.CreatedOn</span>
+        <div>
+            <span>on snippet</span>
+            @Html.ActionLink(@Model.Snippet.Title, "Details", "Snippet", new { id = Model.Snippet.Id, area = "" }, null)
+        </div>
+    </div>
+</div>

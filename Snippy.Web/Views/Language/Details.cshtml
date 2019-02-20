@@ -1,0 +1,9 @@
+﻿@model Snippy.Web.Models.ViewModels.SnippetDetailedViewModel
+
+<div class="col-md-12 main-container">
+    <span class="main-title">All snippets for language</span>
+    <div class="btn btn-success btn-sm">
+        <p>@Model.LanguageName</p>
+    </div>
+    @Html.DisplayFor(m => m)
+</div>
